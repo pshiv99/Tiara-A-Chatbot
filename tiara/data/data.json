@@ -1,0 +1,861 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "Hello"
+      },
+      {
+        "intent": "ask_name",
+        "text": "What is your name"
+      },
+      {
+        "intent": "tell_why_leave",
+        "text": "I have some other things to do"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "I want to know my horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Can you please tell me my horoscope?"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "What is my horoscope for today?"
+      },
+      {
+        "intent": "subscription",
+        "text": "Please subscribe me"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "I want to know what is my horoscope for today?"
+      },
+      {
+        "intent": "subscription",
+        "text": "Yeah sure you can subscribe me"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "What's my horoscope for today"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "what's my horoscope for today"
+      },
+      {
+        "intent": "get_mathfact",
+        "text": "Tell me a random fact"
+      },
+      {
+        "intent": "ask_name",
+        "text": "what is your name"
+      },
+      {
+        "intent": "ask_name",
+        "text": "My name is Prashant"
+      },
+      {
+        "intent": "leave",
+        "text": "Bye"
+      },
+      {
+        "intent": "get_mathfact",
+        "text": "tell me a fact"
+      },
+      {
+        "intent": "leave",
+        "text": "bye"
+      },
+      {
+        "intent": "ask_quality",
+        "text": "what can you do"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "I was wondering if you can tell my horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Capricorn",
+            "entity": "horoscope_sign"
+          }
+        ],
+        "text": "My horoscope sign is Capricorn"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Scorpio",
+            "entity": "horoscope_sign"
+          }
+        ],
+        "text": "My horoscope sign is Scorpio"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Capricorn",
+            "entity": "horoscope_sign"
+          }
+        ],
+        "text": "Capricorn"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "ask_name",
+        "text": "what is your name"
+      },
+      {
+        "intent": "ask_quality",
+        "text": "what can you do"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Can you tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "horoscope_sign",
+            "start": 22,
+            "value": "Virgo"
+          }
+        ],
+        "text": "My horoscope sign is Virgo"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "I want to know my horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "horoscope_sign",
+            "start": 22,
+            "value": "Aries"
+          }
+        ],
+        "text": "My horoscope sign is Aries"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Can you tell me one more horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "horoscope_sign",
+            "start": 22,
+            "value": "Taurus"
+          }
+        ],
+        "text": "My horoscope sign is Taurus"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "One more horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "horoscope_sign",
+            "start": 19,
+            "value": "Gemini"
+          }
+        ],
+        "text": "Horoscope sign is Gemini"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "horoscope_sign",
+            "start": 19,
+            "value": "Cancer"
+          }
+        ],
+        "text": "Horoscope sign is Cancer"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "ask_name",
+        "text": "what is your name"
+      },
+      {
+        "intent": "ask_quality",
+        "text": "what can you do"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Aries"
+          }
+        ],
+        "text": "My horoscope sign is Aries"
+      },
+      {
+        "intent": "leave",
+        "text": "bye"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "ask_quality",
+        "text": "what can you do"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Aries"
+          }
+        ],
+        "text": "My horoscope sign is Aries"
+      },
+      {
+        "intent": "leave",
+        "text": "bye"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "leave",
+        "text": "Bye"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "ask_quality",
+        "text": "what can you do"
+      },
+      {
+        "intent": "ask_name",
+        "text": "what is your name"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.9215138853141912,
+            "end": 30,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Capricorn"
+          }
+        ],
+        "text": "My horoscope sign is Capricorn"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.6052892790104891,
+            "end": 26,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Aries"
+          }
+        ],
+        "text": "My horoscope sign is Aries"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Virgo"
+          }
+        ],
+        "text": "My horoscope sign is Virgo"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Cancer"
+          }
+        ],
+        "text": "My horoscope sign is Cancer"
+      },
+      {
+        "intent": "get_mathfact",
+        "text": "tell me a fact"
+      },
+      {
+        "intent": "get_mathfact",
+        "text": "Can you tell me a random fact"
+      },
+      {
+        "intent": "leave",
+        "text": "bye"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Virgo"
+          }
+        ],
+        "text": "My horoscope sign is Virgo"
+      },
+      {
+        "intent": "leave",
+        "text": "bye"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.7095940078981312,
+            "end": 26,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Aries"
+          }
+        ],
+        "text": "my horoscope sign is Aries"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Taurus"
+          }
+        ],
+        "text": "my horoscope sign is Taurus"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Gemini"
+          }
+        ],
+        "text": "my horoscope sign is Gemini"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.4768154040047367,
+            "end": 27,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Cancer"
+          }
+        ],
+        "text": "my horoscope sign is Cancer"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Leo"
+          }
+        ],
+        "text": "my horoscope sign is Leo"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.6172962475258335,
+            "end": 26,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Virgo"
+          }
+        ],
+        "text": "my horoscope sign is Virgo"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Libra"
+          }
+        ],
+        "text": "my horoscope sign is Libra"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.828197353622578,
+            "end": 28,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Scorpio"
+          }
+        ],
+        "text": "my horoscope sign is Scorpio"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Sagittarius"
+          }
+        ],
+        "text": "my horoscope sign is Sagittarius"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.9685528748471456,
+            "end": 30,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Capricorn"
+          }
+        ],
+        "text": "my horoscope sign is Capricorn"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "horoscope_sign",
+            "start": 21,
+            "value": "Aquarius"
+          }
+        ],
+        "text": "my horoscope sign is Aquarius"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.4163441374158363,
+            "end": 27,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 21,
+            "value": "Pisces"
+          }
+        ],
+        "text": "my horoscope sign is Pisces"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Aries"
+          }
+        ],
+        "text": "Aries"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Taurus"
+          }
+        ],
+        "text": "Taurus"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Gemini"
+          }
+        ],
+        "text": "Gemini"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Cancer"
+          }
+        ],
+        "text": "Cancer"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Leo"
+          }
+        ],
+        "text": "Leo"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Virgo"
+          }
+        ],
+        "text": "Virgo"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Libra"
+          }
+        ],
+        "text": "Libra"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Scorpio"
+          }
+        ],
+        "text": "Scorpio"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Sagittarius"
+          }
+        ],
+        "text": "Sagittarius"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "confidence": 0.8138880532442367,
+            "end": 9,
+            "entity": "horoscope_sign",
+            "extractor": "CRFEntityExtractor",
+            "start": 0,
+            "value": "Capricorn"
+          }
+        ],
+        "text": "Capricorn"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Aquarius"
+          }
+        ],
+        "text": "Aquarius"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "tell me horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "horoscope_sign",
+            "start": 0,
+            "value": "Pisces"
+          }
+        ],
+        "text": "Pisces"
+      },
+      {
+        "intent": "get_logo",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "BU",
+            "entity": "university"
+          }
+        ],
+        "text": "Get me BU logo"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "get_logo",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "BU",
+            "entity": "university",
+            "confidence": 0.7146110814,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Get me BU logo"
+      },
+      {
+        "intent": "leave",
+        "text": "bye"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "leave",
+        "text": "Bye"
+      },
+      {
+        "intent": "tell_why_leave",
+        "text": "i have some other things to do"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

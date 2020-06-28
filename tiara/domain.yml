@@ -1,0 +1,70 @@
+%YAML 1.1
+---
+actions:
+- ask_why_leave
+- get_random_mathfact
+- get_todays_horoscope
+- subscribe_user
+- utter_ask_dob
+- utter_ask_horoscope_sign
+- utter_greet
+- utter_leave
+- utter_logo
+- utter_name
+- utter_quality
+- utter_soon
+- utter_subscribe
+- utter_ask_why_leave
+- utter_default
+entities:
+- DD
+- MM
+- dob_intent
+- horoscope_sign
+- subscribe
+- university
+intents:
+- greeting
+- leave
+- get_logo
+- get_horoscope
+- get_mathfact
+- ask_quality
+- ask_name
+- subscription
+- dob_intent
+- tell_why_leave
+slots:
+  DD:
+    type: text
+  MM:
+    type: text
+  horoscope_sign:
+    type: text
+  subscribe:
+    type: bool
+templates:
+  utter_ask_dob:
+  - text: What is your DOB in DD-MM format?
+  utter_ask_horoscope_sign:
+  - text: What is your horoscope sign?
+  utter_greet:
+  - text: Hello!
+  utter_leave:
+  - text: Bye, hope you have a good day
+  utter_logo:
+  - image: http://www.bubhopal.ac.in/Images/MOLBUlogo.png
+    text: Here is the image
+  utter_name:
+  - text: My name is Tiara
+  utter_quality:
+  - text: For now, I can tell horoscope and random fact. But in future I will be doing
+      much more things.
+  utter_ask_why_leave:
+  - text: Hey! Why are you leaving so early?
+  utter_soon:
+  - text: Ok! No problem. But be sure to come back.
+  utter_subscribe:
+  - text: Do you want to subscribe for daily updates?
+  utter_default:
+  - text: "Sorry, I did not understand that, can you rephrase it?"
